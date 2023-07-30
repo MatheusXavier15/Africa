@@ -10,6 +10,8 @@ import SwiftUI
 struct BrowseView: View {
     // MARK: - PROPERTIES
     
+    let animals: [Animal] = Bundle.main.decode("animals.json")
+    
     // MARK: - BODY
     var body: some View {
         NavigationView {
@@ -18,8 +20,11 @@ struct BrowseView: View {
                     .frame(height: 325)
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                 List {
-                    
+                    ForEach(animals) { animal in
+                        AnimalListItemView(animal: animal)
+                    }
                 }
+                .listStyle(PlainListStyle())
             }
             .navigationTitle("Africa")
         }
