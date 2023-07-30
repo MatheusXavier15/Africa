@@ -47,6 +47,8 @@ struct AnimalDetailView: View {
                     .foregroundColor(.accentColor)
                     .padding(.horizontal)
                 
+                // MARK: - CENTER
+                
                 // 4. Gallery
                 
                 Group {
@@ -59,12 +61,38 @@ struct AnimalDetailView: View {
                 
                 Group {
                     HeadingView(headingImage: "questionmark.circle", headingText: "Did you know?")
+                    InsetFactView(animal: animal)
                 }
                 .padding(.horizontal)
                 
-                // MARK: - CENTER
+                // 6. Description
+                
+                Group {
+                    HeadingView(headingImage: "info.circle", headingText: "All about \(animal.name)")
+                    Text(animal.description)
+                        .multilineTextAlignment(.leading)
+                        .layoutPriority(1)
+                }
+                .padding(.horizontal)
+                
+                // 7. Map
+                
+                Group {
+                    HeadingView(headingImage: "map", headingText: "National Parks")
+                    InsetMapView()
+                }
+                .padding(.horizontal)
                 
                 // MARK: - FOOTER
+                
+                // 8. Link
+                
+                Group {
+                    HeadingView(headingImage: "books.vertical", headingText: "Learn more")
+                    ExternalWebLinkView(animal: animal)
+                }
+                .padding(.horizontal)
+                
                 
             }
             .navigationTitle("Learn about \(animal.name)")
