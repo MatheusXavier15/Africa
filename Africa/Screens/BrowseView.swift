@@ -31,6 +31,7 @@ struct BrowseView: View {
                                 AnimalListItemView(animal: animal)
                             }
                         }
+                        CreditsView()
                     }
                     .listStyle(PlainListStyle())
                 } else {
@@ -43,6 +44,7 @@ struct BrowseView: View {
                                     AnimalGridItemView(animal: animal)
                                 }
                             }
+                            CreditsView()
                         }
                     }
                 }

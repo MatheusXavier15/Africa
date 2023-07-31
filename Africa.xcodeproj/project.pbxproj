@@ -11,6 +11,7 @@
 		06A4A97C2A774A71002F5F43 /* Stickers StickerPackExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 06A4A97B2A774A71002F5F43 /* Stickers StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		06A4A9802A774A71002F5F43 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 06A4A97F2A774A71002F5F43 /* Stickers.xcstickers */; };
 		06A4A9812A774A71002F5F43 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 06A4A97F2A774A71002F5F43 /* Stickers.xcstickers */; };
+		06A4A98A2A774C25002F5F43 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A4A9892A774C25002F5F43 /* CreditsView.swift */; };
 		06C268B52A7603CF002932E7 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C268B42A7603CF002932E7 /* AfricaApp.swift */; };
 		06C268B72A7603CF002932E7 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C268B62A7603CF002932E7 /* BrowseView.swift */; };
 		06C268B92A7603D1002932E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C268B82A7603D1002932E7 /* Assets.xcassets */; };
@@ -82,6 +83,7 @@
 		06A4A9782A774A71002F5F43 /* Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A4A97B2A774A71002F5F43 /* Stickers StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Stickers StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A4A97F2A774A71002F5F43 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "Stickers StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+		06A4A9892A774C25002F5F43 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		06C268B12A7603CF002932E7 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C268B42A7603CF002932E7 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		06C268B62A7603CF002932E7 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				06C269002A76DB66002932E7 /* InsetMapView.swift */,
 				06C268FE2A76D9AF002932E7 /* InsetFactView.swift */,
 				06C268FA2A76D50C002932E7 /* HeadingView.swift */,
+				06A4A9892A774C25002F5F43 /* CreditsView.swift */,
 				06C269062A76E9C7002932E7 /* VideoListItemView.swift */,
 				06C269082A76EF94002932E7 /* VideoPlayerView.swift */,
 				06C2690F2A77023B002932E7 /* MapAnnotationView.swift */,
@@ -433,6 +436,7 @@
 				06C268B52A7603CF002932E7 /* AfricaApp.swift in Sources */,
 				06C269032A76DE4F002932E7 /* ExternalWebLinkView.swift in Sources */,
 				06C268E62A760838002932E7 /* VideoListView.swift in Sources */,
+				06A4A98A2A774C25002F5F43 /* CreditsView.swift in Sources */,
 				06C268EA2A760858002932E7 /* GalleryView.swift in Sources */,
 				06C2690E2A76FFD6002932E7 /* LocationModel.swift in Sources */,
 				06A4A9752A7748E7002F5F43 /* AnimalGridItemView.swift in Sources */,
