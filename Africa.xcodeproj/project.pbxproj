@@ -46,6 +46,7 @@
 		06C2690C2A76F06F002932E7 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2690B2A76F06E002932E7 /* VideoPlayerHelper.swift */; };
 		06C2690E2A76FFD6002932E7 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2690D2A76FFD6002932E7 /* LocationModel.swift */; };
 		06C269102A77023B002932E7 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2690F2A77023B002932E7 /* MapAnnotationView.swift */; };
+		06C269122A7737DE002932E7 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C269112A7737DE002932E7 /* MotionAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		06C2690B2A76F06E002932E7 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		06C2690D2A76FFD6002932E7 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		06C2690F2A77023B002932E7 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		06C269112A7737DE002932E7 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 				06C269062A76E9C7002932E7 /* VideoListItemView.swift */,
 				06C269082A76EF94002932E7 /* VideoPlayerView.swift */,
 				06C2690F2A77023B002932E7 /* MapAnnotationView.swift */,
+				06C269112A7737DE002932E7 /* MotionAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				06C268FD2A76D78C002932E7 /* InsetGalleryView.swift in Sources */,
 				06C269072A76E9C7002932E7 /* VideoListItemView.swift in Sources */,
 				06C268F32A760CFF002932E7 /* CodableBundleExtension.swift in Sources */,
+				06C269122A7737DE002932E7 /* MotionAnimationView.swift in Sources */,
 				06C268FB2A76D50C002932E7 /* HeadingView.swift in Sources */,
 				06C269092A76EF94002932E7 /* VideoPlayerView.swift in Sources */,
 			);
